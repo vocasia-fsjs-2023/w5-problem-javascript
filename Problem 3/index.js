@@ -1,0 +1,2 @@
+var nama;
+var nilai;
