@@ -1,9 +1,10 @@
-const name = "Adhi Pamungkas Wijayadi";
+const name = "";
 const age = 167;
 let money = 500000;
 
 if (name === "") {
   console.log("Anda tidak boleh masuk!");
+  process.exit(1);
 }
 
 if (age < 17) {
