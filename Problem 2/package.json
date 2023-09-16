@@ -1,0 +1,12 @@
+{
+  "name": "problem-2",
+  "version": "1.0.0",
+  "description": "- Mengerti Cara Menggunakan `If-Else`\r - Mengerti Logika `If-Else`\r - Mengerti Cara Menggunakan Operator Evaluasi `===`, `!==`",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
