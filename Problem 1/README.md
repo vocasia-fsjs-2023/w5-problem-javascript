@@ -13,3 +13,4 @@
    - Loops
    ```
 2. Screen capture bukti penyelesaian tiap syllabus diatas.
+![Alt text](introduction-to-js.png)
