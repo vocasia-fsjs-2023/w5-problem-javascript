@@ -1,31 +1,25 @@
-var nama;
-var nilai;
+var nama = "Leonardo Ephraim";
+var nilai = 70;
+var descNilai;
 
-// Meminta pengajar memasukkan nama dan nilai mahasiswa secara manual
-nama = prompt("Masukkan nama siswa:");
-nilai = parseFloat(prompt("Masukkan nilai siswa (0-100):"));
-
-// Memeriksa apakah nilai mahasiswa berada dalam rentang yang valid
 if (nilai >= 0 && nilai <= 100) {
-  // Menggunakan struktur percabangan untuk menentukan deskripsi nilai
-  var deskripsiNilai;
-
+  
   if (nilai >= 80 && nilai <= 100) {
-    deskripsiNilai = "A";
+    descNilai = "A";
   } else if (nilai >= 65 && nilai < 80) {
-    deskripsiNilai = "B";
+    descNilai = "B";
   } else if (nilai >= 50 && nilai < 65) {
-    deskripsiNilai = "C";
+    descNilai = "C";
   } else if (nilai >= 35 && nilai < 50) {
-    deskripsiNilai = "D";
+    descNilai = "D";
   } else {
-    deskripsiNilai = "E";
+    descNilai = "E";
   }
-
-  // Menampilkan deskripsi nilai dan nama siswa
+  
   console.log(`Nama siswa: ${nama}`);
-  console.log(`Deskripsi nilai: ${deskripsiNilai}`);
+  console.log(`Nilai : ${nilai}`);
+  console.log(`Deskripsi nilai: ${descNilai}`);
 } else {
-  // Menampilkan pesan jika nilai tidak valid
+  
   console.log("Nilai Invalid");
 }
