@@ -16,7 +16,8 @@ Dimana jika mendapatkan angka,
 1: akan menampilkan "coba lagi ya"
 2: akan mendapatkan jumlah kupon/karcis sebanyak 5 dan menampilkan "selamat kamu mendapatkan kupon sebanyak 5"
 3: akan mendapatkan jumlah kupon/karcis sebanyak 15 dan menampilkan "selamat kamu mendapatkan kupon sebanyak 15"
-4: akan mendapatkan jumlah kupon/karcis sebanyak 50 dan menampilkan "selamat kamu mendapatkan kupon sebanyak 50" 5. akan mendapatkan jumlah kupon/karcis sebanyak 100 dan menampilkan "WOW, kamu menang jackpot! Selamat!!"
+4: akan mendapatkan jumlah kupon/karcis sebanyak 50 dan menampilkan "selamat kamu mendapatkan kupon sebanyak 50"
+5. akan mendapatkan jumlah kupon/karcis sebanyak 100 dan menampilkan "WOW, kamu menang jackpot! Selamat!!"
 ```
 
 kerjakan pada index.js dan implementasikan menggunakan SWITCH-CASE
