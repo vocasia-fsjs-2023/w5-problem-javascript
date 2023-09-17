@@ -55,3 +55,24 @@ console.log("Second Word: " + secondWord4);
 console.log("Third Word: " + thirdWord4);
 console.log("Fourth Word: " + fourthWord4);
 console.log("Fifth Word: " + fifthWord4);
+//problem 5
+var nama = "Jamil"; 
+var deskripsiNilai;
+
+if (nilai >= 80 && nilai <= 100) {
+  deskripsiNilai = "A";
+} else if (nilai >= 65 && nilai <= 79) {
+  deskripsiNilai = "B";
+} else if (nilai >= 50 && nilai <= 64) {
+  deskripsiNilai = "C";
+} else if (nilai >= 35 && nilai <= 49) {
+  deskripsiNilai = "D";
+} else if (nilai >= 0 && nilai <= 34) {
+  deskripsiNilai = "E";
+} else {
+  deskripsiNilai = "Nilai Invalid";
+}
+
+console.log("Nama siswa: " + nama);
+console.log("Nilai: " + nilai);
+console.log("Deskripsi Nilai: " + deskripsiNilai);
