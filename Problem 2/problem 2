@@ -1,0 +1,28 @@
+// Deklarasi variabel
+let name = "irhas"; // Ganti dengan nama pengunjung
+let age = 21; // Ganti dengan usia pengunjung
+let money = 450000; // Ganti dengan jumlah uang pengunjung
+
+// jika name kosong
+if (name === "") {
+  console.log("Anda tidak boleh masuk!");
+} else {
+  // usia pengunjung
+  if (age < 17) {
+    // Pengunjung berusia di bawah 17 tahun hanya bisa memesan juice
+    if (money < 50000) {
+      console.log("Uang tidak cukup. Anda harus pulang.");
+    } else {
+      money -= 50000; // Mengurangkan uang untuk pembelian juice
+      console.log("Anda bisa pesan minum. Sisa uang anda: " + money);
+    }
+  } else {
+    // Pengunjung berusia 17 tahun ke atas hanya bisa memesan anggur
+    if (money < 300000) {
+      console.log("Uang tidak cukup. Anda harus pulang.");
+    } else {
+      money -= 300000; // Mengurangkan uang untuk pembelian anggur
+      console.log("Anda bisa pesan minum. Sisa uang anda: " + money);
+    }
+  }
+}
