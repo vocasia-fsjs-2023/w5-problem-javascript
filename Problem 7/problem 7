@@ -1,0 +1,33 @@
+// kelipatan angka +3 dan ganjil/genap
+for (var angka = 1; angka <= 100; angka += 3) {
+  if (angka % 2 === 0) {
+    console.log(angka + " - genap");
+  } else {
+    console.log(angka + " - ganjil");
+  }
+}
+
+
+
+// Buatlah sebuah loop untuk mengecek setiap 5 angka dari 50-200, lalu cetak angka tersebut dan tuliskan apakah bilangan tersebut merupakan faktor perkalian 3 atau bukan.
+
+for (var angka = 50; angka <= 200; angka += 5) {
+  if (angka % 3 === 0) {
+    console.log(angka + " - faktor 3");
+  } else {
+    console.log(angka + " - tidak bisa dibagi 3");
+  }
+}
+
+
+// Buatlah loop untuk mengecek setiap 7 angka dari 100-200, dan hanya cetak angka tersebut bila angkanya habis dibagi 8.
+OUTPUT:
+--------
+   128
+   184
+console.log("--------");
+for (var angka = 100; angka <= 200; angka += 7) {
+  if (angka % 8 === 0) {
+    console.log(angka);
+  }
+}
