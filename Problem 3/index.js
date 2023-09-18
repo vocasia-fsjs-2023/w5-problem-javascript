@@ -1,5 +1,5 @@
-var nama = "eri"
-var nilai = 20
+var nama = "eri";
+var nilai = 20;
 
 if (nilai <= 100 && nilai >= 80) {
   grade = 'A';
