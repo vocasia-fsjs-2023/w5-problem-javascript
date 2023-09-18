@@ -1,0 +1,25 @@
+function tugaswira(inputkata) {
+
+  inputkata = inputkata.toLowerCase();
+
+  var vokal = ['a', 'e', 'i', 'o', 'u'];
+
+  var outputkata = '';
+
+  for (var i = 0; i < inputkata.length; i++) {
+      var huruf = inputkata[i];
+
+      if (vokal.includes(huruf)) {
+          outputkata += '$';
+      } else {
+          outputkata += huruf;
+      }
+  }
+
+  return outputkata;
+}
+
+var inputkata = prompt("Masukkan Kata: ");
+
+var output = tugaswira(inputkata);
+console.log("Hasil penggantian huruf vokal dengan '$':", output);

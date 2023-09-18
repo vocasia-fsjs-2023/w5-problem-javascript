@@ -1,0 +1,23 @@
+let namaSiswa = "Irhas";
+let nilai = 90; 
+
+if (nilai < 0 || nilai > 100) {
+  console.log("Nilai Invalid");
+} else {
+  let descNilai;
+  if (nilai >= 80 && nilai <= 100) {
+    descNilai = "A";
+  } else if (nilai >= 65 && nilai <= 79) {
+    descNilai = "B";
+  } else if (nilai >= 50 && nilai <= 64) {
+    descNilai = "C";
+  } else if (nilai >= 35 && nilai <= 49) {
+    descNilai = "D";
+  } else {
+    descNilai = "E";
+  }
+
+  console.log(`Nama Siswa: ${namaSiswa}`);
+  console.log(`Nilai: ${nilai}`);
+  console.log(`Deskripsi Nilai: ${descNilai}`);
+}
