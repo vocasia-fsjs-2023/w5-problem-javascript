@@ -16,7 +16,7 @@ if (pengunjung.name === "") {
     } else {
       pengunjung.money -= 50000; // Mengurangkan uang untuk membeli juice
       console.log("Anda bisa pesan minum. Sisa uang anda: " + pengunjung.money);
-    }
+    };
   } else {
     // Pengunjung 17 tahun ke atas hanya bisa pesan anggur
     if (pengunjung.money < 300000) {
@@ -24,6 +24,6 @@ if (pengunjung.name === "") {
     } else {
       pengunjung.money -= 300000; // Mengurangkan uang untuk membeli anggur
       console.log("Anda bisa pesan minum. Sisa uang anda: " + pengunjung.money);
-    }
-  }
-}
+    };
+  };
+};
