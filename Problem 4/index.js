@@ -3,7 +3,7 @@ var hasil = "";
 
 function acakAngka() {
   return Math.floor(Math.random() * 5) + 1;
-}
+};
 
 var angka = acakAngka();
 switch (angka) {
@@ -25,7 +25,7 @@ switch (angka) {
   default:
     hasil = "Angka tidak valid";
     break;
-}
+};
 
 // Jangan melewati sini
 console.log(hasil);
