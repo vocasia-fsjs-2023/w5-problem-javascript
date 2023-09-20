@@ -1,5 +1,5 @@
 // Input data pengunjung
-var name = "John";  // Ganti dengan nama pengunjung
+var name = "Syafril Andrew Nuruddin";  // Ganti dengan nama pengunjung
 var age = 18;       // Ganti dengan usia pengunjung
 var money = 350000; // Ganti dengan jumlah uang yang dimiliki pengunjung
 
