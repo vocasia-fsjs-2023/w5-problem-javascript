@@ -1,6 +1,22 @@
-var kata = "I love Javascript";
+function gantihuruf(kata) {
 
-// Do your work here
+    let result = '';
+  
+    for (let i = 0; i < kata.length; i++) {
+      let char = kata[i];
+  
+      if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
+        result += '$';
+      } else {
+        result += char;
+      }
+    }
+  
+    return result;
+  }
+  
 
-// Dont work after this line
-console.log(kata);
+  var kata = 'i love javascript';
+  var hasil = gantihuruf(kata);
+  console.log(hasil);
+  
